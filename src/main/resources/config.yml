@@ -1,0 +1,33 @@
+conditions:
+  percentage: 0.7
+  rounding-method: "ceil"
+
+ignore-worlds:
+  - "world_nether"
+  - "world_the_end"
+
+exclusions:
+  gamemode:
+    enabled: false
+    gamemodes:
+      survival: false
+      creative: true
+      adventure: true
+      spectator: true
+  afk:
+    enabled: false
+    method: "afk-plus"
+
+messages:
+  chat:
+    player-entered-bed: "<gray>» <light_purple>%player%<gray> is now sleeping (<light_purple>%num_sleeping%<gray>/<light_purple>%needed_sleeping%<gray>)"
+    player-left-bed: "<gray>» <light_purple>%player%<gray> is no longer sleeping (<light_purple>%num_sleeping%<gray>/<light_purple>%needed_sleeping%<gray>)"
+    generic-sleeping: "<gray>» <light_purple>%num_sleeping%/%needed_sleeping%<gray> players sleeping"
+
+disable-vanilla-action-bar: true
+
+debug:
+  enabled: false
+  broadcast: false
+
+__config-version: 1
